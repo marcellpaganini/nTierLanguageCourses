@@ -28,97 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cboCourse = new System.Windows.Forms.ComboBox();
+            this.cboGroups = new System.Windows.Forms.ComboBox();
+            this.btnView = new System.Windows.Forms.Button();
+            this.dgvStudents = new System.Windows.Forms.DataGridView();
+            this.gbxStudents = new System.Windows.Forms.GroupBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnNewStudent = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.cboGroup = new System.Windows.Forms.ComboBox();
+            this.gbxNewStudent = new System.Windows.Forms.GroupBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.btnCreate = new System.Windows.Forms.Button();
+            this.btnNewGroup = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtPrice = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.cbxEnrolled = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtCountry = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cboGender = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.dtpStartDate = new System.Windows.Forms.DateTimePicker();
+            this.txtLastName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtFirstName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvStudents)).BeginInit();
+            this.gbxStudents.SuspendLayout();
+            this.gbxNewStudent.SuspendLayout();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // cboCourse
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(113, 42);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 0;
+            this.cboCourse.FormattingEnabled = true;
+            this.cboCourse.Location = new System.Drawing.Point(113, 42);
+            this.cboCourse.Name = "cboCourse";
+            this.cboCourse.Size = new System.Drawing.Size(121, 24);
+            this.cboCourse.TabIndex = 0;
             // 
-            // comboBox2
+            // cboGroups
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(781, 49);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
-            this.comboBox2.TabIndex = 1;
+            this.cboGroups.FormattingEnabled = true;
+            this.cboGroups.Location = new System.Drawing.Point(781, 49);
+            this.cboGroups.Name = "cboGroups";
+            this.cboGroups.Size = new System.Drawing.Size(121, 24);
+            this.cboGroups.TabIndex = 1;
             // 
-            // button1
+            // btnView
             // 
-            this.button1.Location = new System.Drawing.Point(579, 39);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "View";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnView.Location = new System.Drawing.Point(579, 39);
+            this.btnView.Name = "btnView";
+            this.btnView.Size = new System.Drawing.Size(75, 23);
+            this.btnView.TabIndex = 2;
+            this.btnView.Text = "View";
+            this.btnView.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgvStudents
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(57, 89);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(888, 189);
-            this.dataGridView1.TabIndex = 3;
+            this.dgvStudents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvStudents.Location = new System.Drawing.Point(57, 89);
+            this.dgvStudents.Name = "dgvStudents";
+            this.dgvStudents.RowHeadersWidth = 51;
+            this.dgvStudents.RowTemplate.Height = 24;
+            this.dgvStudents.Size = new System.Drawing.Size(888, 189);
+            this.dgvStudents.TabIndex = 3;
             // 
-            // groupBox1
+            // gbxStudents
             // 
-            this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.comboBox5);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Location = new System.Drawing.Point(36, 31);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1027, 345);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Students";
+            this.gbxStudents.Controls.Add(this.label14);
+            this.gbxStudents.Controls.Add(this.btnNewStudent);
+            this.gbxStudents.Controls.Add(this.label12);
+            this.gbxStudents.Controls.Add(this.label9);
+            this.gbxStudents.Controls.Add(this.label13);
+            this.gbxStudents.Controls.Add(this.btnDelete);
+            this.gbxStudents.Controls.Add(this.cboGroup);
+            this.gbxStudents.Controls.Add(this.cboCourse);
+            this.gbxStudents.Controls.Add(this.dgvStudents);
+            this.gbxStudents.Controls.Add(this.btnView);
+            this.gbxStudents.Location = new System.Drawing.Point(36, 31);
+            this.gbxStudents.Name = "gbxStudents";
+            this.gbxStudents.Size = new System.Drawing.Size(1027, 345);
+            this.gbxStudents.TabIndex = 4;
+            this.gbxStudents.TabStop = false;
+            this.gbxStudents.Text = "Students";
             // 
             // label14
             // 
@@ -129,14 +129,15 @@
             this.label14.TabIndex = 23;
             this.label14.Text = "New Student";
             // 
-            // button5
+            // btnNewStudent
             // 
-            this.button5.Location = new System.Drawing.Point(909, 40);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(36, 23);
-            this.button5.TabIndex = 22;
-            this.button5.Text = "+";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnNewStudent.Location = new System.Drawing.Point(909, 40);
+            this.btnNewStudent.Name = "btnNewStudent";
+            this.btnNewStudent.Size = new System.Drawing.Size(36, 23);
+            this.btnNewStudent.TabIndex = 22;
+            this.btnNewStudent.Text = "+";
+            this.btnNewStudent.UseVisualStyleBackColor = true;
+            this.btnNewStudent.Click += new System.EventHandler(this.btnNewStudent_Click);
             // 
             // label12
             // 
@@ -164,78 +165,78 @@
             this.label13.Size = new System.Drawing.Size(0, 17);
             this.label13.TabIndex = 20;
             // 
-            // button2
+            // btnDelete
             // 
-            this.button2.Location = new System.Drawing.Point(470, 294);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Delete";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnDelete.Location = new System.Drawing.Point(470, 294);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.TabIndex = 4;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
             // 
-            // comboBox5
+            // cboGroup
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(369, 39);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(121, 24);
-            this.comboBox5.TabIndex = 19;
+            this.cboGroup.FormattingEnabled = true;
+            this.cboGroup.Location = new System.Drawing.Point(369, 39);
+            this.cboGroup.Name = "cboGroup";
+            this.cboGroup.Size = new System.Drawing.Size(121, 24);
+            this.cboGroup.TabIndex = 19;
             // 
-            // groupBox2
+            // gbxNewStudent
             // 
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.comboBox2);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.comboBox3);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.dateTimePicker1);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(36, 382);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1027, 290);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "New Student";
-            this.groupBox2.Visible = false;
+            this.gbxNewStudent.Controls.Add(this.txtEmail);
+            this.gbxNewStudent.Controls.Add(this.btnCreate);
+            this.gbxNewStudent.Controls.Add(this.btnNewGroup);
+            this.gbxNewStudent.Controls.Add(this.label11);
+            this.gbxNewStudent.Controls.Add(this.txtPrice);
+            this.gbxNewStudent.Controls.Add(this.label10);
+            this.gbxNewStudent.Controls.Add(this.label8);
+            this.gbxNewStudent.Controls.Add(this.cbxEnrolled);
+            this.gbxNewStudent.Controls.Add(this.label7);
+            this.gbxNewStudent.Controls.Add(this.txtCountry);
+            this.gbxNewStudent.Controls.Add(this.label6);
+            this.gbxNewStudent.Controls.Add(this.cboGroups);
+            this.gbxNewStudent.Controls.Add(this.label5);
+            this.gbxNewStudent.Controls.Add(this.label4);
+            this.gbxNewStudent.Controls.Add(this.cboGender);
+            this.gbxNewStudent.Controls.Add(this.label3);
+            this.gbxNewStudent.Controls.Add(this.dtpStartDate);
+            this.gbxNewStudent.Controls.Add(this.txtLastName);
+            this.gbxNewStudent.Controls.Add(this.label2);
+            this.gbxNewStudent.Controls.Add(this.txtFirstName);
+            this.gbxNewStudent.Controls.Add(this.label1);
+            this.gbxNewStudent.Location = new System.Drawing.Point(36, 382);
+            this.gbxNewStudent.Name = "gbxNewStudent";
+            this.gbxNewStudent.Size = new System.Drawing.Size(1027, 290);
+            this.gbxNewStudent.TabIndex = 5;
+            this.gbxNewStudent.TabStop = false;
+            this.gbxNewStudent.Text = "New Student";
+            this.gbxNewStudent.Visible = false;
             // 
-            // textBox5
+            // txtEmail
             // 
-            this.textBox5.Location = new System.Drawing.Point(483, 97);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 19;
+            this.txtEmail.Location = new System.Drawing.Point(483, 97);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(100, 22);
+            this.txtEmail.TabIndex = 19;
             // 
-            // button4
+            // btnCreate
             // 
-            this.button4.Location = new System.Drawing.Point(434, 240);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(195, 28);
-            this.button4.TabIndex = 18;
-            this.button4.Text = "Create";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnCreate.Location = new System.Drawing.Point(422, 239);
+            this.btnCreate.Name = "btnCreate";
+            this.btnCreate.Size = new System.Drawing.Size(195, 28);
+            this.btnCreate.TabIndex = 18;
+            this.btnCreate.Text = "Create";
+            this.btnCreate.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnNewGroup
             // 
-            this.button3.Location = new System.Drawing.Point(746, 94);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 28);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "New Group";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnNewGroup.Location = new System.Drawing.Point(746, 94);
+            this.btnNewGroup.Name = "btnNewGroup";
+            this.btnNewGroup.Size = new System.Drawing.Size(124, 28);
+            this.btnNewGroup.TabIndex = 16;
+            this.btnNewGroup.Text = "New Group";
+            this.btnNewGroup.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -246,12 +247,12 @@
             this.label11.TabIndex = 17;
             this.label11.Text = "Groups";
             // 
-            // textBox4
+            // txtPrice
             // 
-            this.textBox4.Location = new System.Drawing.Point(484, 187);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 14;
+            this.txtPrice.Location = new System.Drawing.Point(484, 187);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(100, 22);
+            this.txtPrice.TabIndex = 14;
             // 
             // label10
             // 
@@ -270,14 +271,14 @@
             this.label8.TabIndex = 13;
             this.label8.Text = "Price";
             // 
-            // checkBox1
+            // cbxEnrolled
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(485, 145);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(18, 17);
-            this.checkBox1.TabIndex = 12;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.cbxEnrolled.AutoSize = true;
+            this.cbxEnrolled.Location = new System.Drawing.Point(485, 145);
+            this.cbxEnrolled.Name = "cbxEnrolled";
+            this.cbxEnrolled.Size = new System.Drawing.Size(18, 17);
+            this.cbxEnrolled.TabIndex = 12;
+            this.cbxEnrolled.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -288,12 +289,12 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "Enrolled";
             // 
-            // textBox3
+            // txtCountry
             // 
-            this.textBox3.Location = new System.Drawing.Point(485, 56);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 10;
+            this.txtCountry.Location = new System.Drawing.Point(485, 56);
+            this.txtCountry.Name = "txtCountry";
+            this.txtCountry.Size = new System.Drawing.Size(100, 22);
+            this.txtCountry.TabIndex = 10;
             // 
             // label6
             // 
@@ -322,13 +323,13 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Gender";
             // 
-            // comboBox3
+            // cboGender
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(113, 190);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 24);
-            this.comboBox3.TabIndex = 4;
+            this.cboGender.FormattingEnabled = true;
+            this.cboGender.Location = new System.Drawing.Point(113, 190);
+            this.cboGender.Name = "cboGender";
+            this.cboGender.Size = new System.Drawing.Size(121, 24);
+            this.cboGender.TabIndex = 4;
             // 
             // label3
             // 
@@ -339,19 +340,19 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Start Date";
             // 
-            // dateTimePicker1
+            // dtpStartDate
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(113, 149);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 4;
+            this.dtpStartDate.Location = new System.Drawing.Point(113, 149);
+            this.dtpStartDate.Name = "dtpStartDate";
+            this.dtpStartDate.Size = new System.Drawing.Size(200, 22);
+            this.dtpStartDate.TabIndex = 4;
             // 
-            // textBox2
+            // txtLastName
             // 
-            this.textBox2.Location = new System.Drawing.Point(113, 100);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 3;
+            this.txtLastName.Location = new System.Drawing.Point(113, 100);
+            this.txtLastName.Name = "txtLastName";
+            this.txtLastName.Size = new System.Drawing.Size(100, 22);
+            this.txtLastName.TabIndex = 3;
             // 
             // label2
             // 
@@ -362,12 +363,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Last Name";
             // 
-            // textBox1
+            // txtFirstName
             // 
-            this.textBox1.Location = new System.Drawing.Point(113, 61);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 1;
+            this.txtFirstName.Location = new System.Drawing.Point(113, 61);
+            this.txtFirstName.Name = "txtFirstName";
+            this.txtFirstName.Size = new System.Drawing.Size(100, 22);
+            this.txtFirstName.TabIndex = 1;
             // 
             // label1
             // 
@@ -383,54 +384,55 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1087, 684);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gbxNewStudent);
+            this.Controls.Add(this.gbxStudents);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.Text = "Class Management";
+            this.Load += new System.EventHandler(this.frmMain_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvStudents)).EndInit();
+            this.gbxStudents.ResumeLayout(false);
+            this.gbxStudents.PerformLayout();
+            this.gbxNewStudent.ResumeLayout(false);
+            this.gbxNewStudent.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ComboBox cboCourse;
+        private System.Windows.Forms.ComboBox cboGroups;
+        private System.Windows.Forms.Button btnView;
+        private System.Windows.Forms.DataGridView dgvStudents;
+        private System.Windows.Forms.GroupBox gbxStudents;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnNewStudent;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.ComboBox cboGroup;
+        private System.Windows.Forms.GroupBox gbxNewStudent;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Button btnCreate;
+        private System.Windows.Forms.Button btnNewGroup;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtPrice;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox cbxEnrolled;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtCountry;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cboGender;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.DateTimePicker dtpStartDate;
+        private System.Windows.Forms.TextBox txtLastName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.Label label1;
     }
 }

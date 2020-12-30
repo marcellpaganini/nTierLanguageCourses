@@ -1,0 +1,6 @@
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\Types\bin\Debug\Types.dll
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\Types\bin\Debug\Types.pdb
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\Types\obj\Debug\Types.csprojAssemblyReference.cache
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\Types\obj\Debug\Types.csproj.CoreCompileInputs.cache
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\Types\obj\Debug\Types.dll
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\Types\obj\Debug\Types.pdb
