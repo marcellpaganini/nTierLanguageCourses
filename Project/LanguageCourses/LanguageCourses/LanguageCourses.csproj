@@ -80,6 +80,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{f21e4c99-d7a5-4327-94dd-3f35c01852b3}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Service\Service.csproj">
+      <Project>{388c5a4f-a63c-435e-ab52-a00583c564f4}</Project>
+      <Name>Service</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Types\Types.csproj">
       <Project>{0527D066-95C7-4B40-BC0D-1E3685B95A0D}</Project>
       <Name>Types</Name>
