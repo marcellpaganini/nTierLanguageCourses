@@ -11,3 +11,11 @@ C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesPr
 C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\LanguageCourses\bin\Debug\Types.dll
 C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\LanguageCourses\bin\Debug\Types.pdb
 C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\LanguageCourses\obj\Debug\LanguageCourses.csproj.CopyComplete
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\LanguageCourses\bin\Debug\Model.dll
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\LanguageCourses\bin\Debug\Service.dll
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\LanguageCourses\bin\Debug\Repo.dll
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\LanguageCourses\bin\Debug\DAL.dll
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\LanguageCourses\bin\Debug\Model.pdb
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\LanguageCourses\bin\Debug\Service.pdb
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\LanguageCourses\bin\Debug\Repo.pdb
+C:\Users\pagan\Documents\NBCC\Senior Year\Fall Term\N-tier Dev\LanguageCoursesProject\nTierLanguageCourses\Project\LanguageCourses\LanguageCourses\bin\Debug\DAL.pdb

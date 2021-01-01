@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Group.cs" />
+    <Compile Include="Lookups\GroupLookup.cs" />
+    <Compile Include="Lookups\CourseLookup.cs" />
+    <Compile Include="Lookups\StudentLookup.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

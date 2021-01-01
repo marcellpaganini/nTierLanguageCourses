@@ -65,7 +65,7 @@ namespace DAL
 
         private SqlCommand CreateCommand(string cmdText, CommandType cmdType, List<ParmStruct> parms)
         {
-            SqlConnection conn = new SqlConnection(CM.ConnectionStrings["nbaConnStr"].ConnectionString);
+            SqlConnection conn = new SqlConnection(CM.ConnectionStrings["langCoursesConnStr"].ConnectionString);
 
             SqlCommand cmd = new SqlCommand(cmdText, conn);
             cmd.CommandType = cmdType;

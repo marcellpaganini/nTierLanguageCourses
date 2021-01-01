@@ -73,6 +73,7 @@
             this.cboCourse.Name = "cboCourse";
             this.cboCourse.Size = new System.Drawing.Size(121, 24);
             this.cboCourse.TabIndex = 0;
+            this.cboCourse.SelectedIndexChanged += new System.EventHandler(this.cboCourse_SelectedIndexChanged);
             // 
             // cboGroups
             // 
@@ -90,6 +91,7 @@
             this.btnView.TabIndex = 2;
             this.btnView.Text = "View";
             this.btnView.UseVisualStyleBackColor = true;
+            this.btnView.Click += new System.EventHandler(this.btnView_Click);
             // 
             // dgvStudents
             // 
