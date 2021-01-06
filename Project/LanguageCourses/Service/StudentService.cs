@@ -1,4 +1,5 @@
-﻿using Model.Lookups;
+﻿using Model;
+using Model.Lookups;
 using Repo;
 using System;
 using System.Collections.Generic;
@@ -27,10 +28,24 @@ namespace Service
             return repo.RetrieveGroupsByCourse(course);
         }
 
+        public List<GroupLookup> GetGroups()
+        {
+            return repo.RetrieveGroups();
+        }
+
         public List<StudentLookup> GetStudentsByGroup(int group)
         {
             return repo.RetrieveStudentsByGroup(group);
         }
 
+        public bool Delete(int studentId)
+        {
+            return repo.Delete(studentId);
+        }
+
+        public bool AddStudent(Student s)
+        {            
+             return repo.Insert(s);
+        }
     }
 }
